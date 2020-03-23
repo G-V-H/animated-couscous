@@ -1,5 +1,3 @@
-require 'securerandom'
-
 all_the_humans = [
     "Aaron Lewis",
     "Adam Payne",
@@ -36,10 +34,11 @@ all_the_humans = [
     "Gini Thomas",
     "Wendy Doan",
     "Wilkins Cheng"]
+    
 
-    for i in 0..5
-        system("clear")
-        puts all_the_humans.sample
-        sleep 0.6
-    end
+for i in 0..5
+    system("clear")
+    puts all_the_humans.sample
+    sleep 0.6
+end
     
